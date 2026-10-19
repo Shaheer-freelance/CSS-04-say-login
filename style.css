@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('gilroy-bold/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Gilroy' , sans-serif;
+    /* font-weight: 700; */
+}
+
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.login-side {
+    background-color: #002062;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-side {
+    width: 60%;
+    height: 100vh;
+}
+
+.img-side img {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    width: 73%;
+    height: 92%;
+    position: relative;
+}
+
+.saylani-container{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 28px;
+    width: 93%;
+}
+
+.saylani-img{
+    width: 91%;
+    height: 70px;
+    position: absolute;
+    top: 5px;
+}
+
+.first-p{
+    position: absolute;
+    top: 70px;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.g-mail{
+    position: absolute;
+    top: 150px;
+    width: 84%;
+    height: 36px;
+    background-color: #0F2D6B;
+    border: 1px solid #4671C6A6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.password{
+    position: absolute;
+    position: relative;
+    top: 193px;
+    width: 84%;
+    height: 35px;
+    background-color: #0F2D6B;
+    border: 1px solid #4671C6A6;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 12px;
+}
+
+.input{
+    border: none;
+    background-color: #0F2D6B;
+    font-size: 12px;
+    color: lightgray;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+    color: lightblue;
+    margin-left:5px ;
+}
+
+.eye{
+    width: 17px;
+    height: 17px;
+    color: lightgray;
+    position: absolute;
+    right: 10px;
+}
+
+.forgot{
+    position: absolute;
+    top: 225px;
+    right: 33px;
+    color: white;
+    font-size: 10px;
+}
+
+.signin-button{
+    position: absolute;
+    top: 290px;
+    right: 33px;
+    width: 84%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #4671C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
+.or{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 84%;
+    color: #aaaaaa;
+    font-size: 12px;
+    margin: 20px auto;
+    position: absolute;
+    top: 330px;
+}
+
+.or::before,
+.or::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #555b70;
+}
+
+.logo{
+    width: 13px;
+    height: 13px;
+}
+
+.signin-options{
+    width: 84%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #0F2D6B;
+    border: 1px solid #4671C6;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.google{
+    position: absolute;
+    top: 370px;
+}
+
+.facebook{
+    position: absolute;
+    top: 408px;
+}
+
+.apple{
+    position: absolute;
+    top: 446px;
+}
+
+.text-option{
+    color: rgb(184, 184, 184);
+    font-size: 11px;
+}
+
+.last-text{
+    position: absolute;
+    top: 475px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-p{
+    color: lightgray;
+    font-size: 10px;
+}
+
+.last-a{
+    text-decoration: none;
+    font-size: 10px;
+}
