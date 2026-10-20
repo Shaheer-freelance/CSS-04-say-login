@@ -1,15 +1,16 @@
 @font-face {
     font-family: 'Gilroy';
-    src: url('Gilroy-Medium.ttf') format('truetype');
+    src: url('Gilroy-Medium.ttf') ;
 }
 
 * {
-    font-family: 'Gilroy' , sans-serif;
+    font-family: 'Gilroy';
     
 }
 
 body {
-    margin: 0;
+    margin: 0px auto;
+    width: 100%;
     display: flex;
     height: 100vh;
 }
@@ -40,12 +41,13 @@ body {
     width: 73%;
     height: 92%;
     position: relative;
+    border: 1px solid white;
 }
 
 .saylani-container{
     display: flex;
     position: absolute;
-    top: 5px;
+    top: 145px;
     left: 28px;
     width: 93%;
 }
@@ -59,7 +61,7 @@ body {
 
 .first-p{
     position: absolute;
-    top: 70px;
+    top: 210px;
     color: white;
     font-weight: 400;
     font-size: 30px;
@@ -67,8 +69,8 @@ body {
 
 .g-mail{
     position: absolute;
-    top: 150px;
-    width: 84%;
+    top: 300px;
+    width: 76%;
     height: 36px;
     background-color: #0F2D6B;
     border: 1px solid #4671C6A6;
@@ -81,8 +83,8 @@ body {
 .password{
     position: absolute;
     position: relative;
-    top: 193px;
-    width: 84%;
+    top: 343px;
+    width: 76%;
     height: 35px;
     background-color: #0F2D6B;
     border: 1px solid #4671C6A6;
@@ -122,17 +124,17 @@ input:focus{
 
 .forgot{
     position: absolute;
-    top: 225px;
-    right: 33px;
+    top: 374px;
+    right: 60px;
     color: white;
     font-size: 10px;
 }
 
 .signin-button{
     position: absolute;
-    top: 290px;
-    right: 33px;
-    width: 84%;
+    top: 430px;
+    /* right: 41px; */
+    width: 76%;
     height: 35px;
     border-radius: 10px;
     background-color: #4671C6;
@@ -153,7 +155,7 @@ input:focus{
     font-size: 12px;
     margin: 20px auto;
     position: absolute;
-    top: 330px;
+    top: 450px;
 }
 
 .or::before,
@@ -170,7 +172,7 @@ input:focus{
 }
 
 .signin-options{
-    width: 84%;
+    width: 76%;
     height: 35px;
     border-radius: 10px;
     background-color: #0F2D6B;
@@ -183,17 +185,17 @@ input:focus{
 
 .google{
     position: absolute;
-    top: 370px;
+    top: 520px;
 }
 
 .facebook{
     position: absolute;
-    top: 408px;
+    top: 558px;
 }
 
 .apple{
     position: absolute;
-    top: 446px;
+    top: 596px;
 }
 
 .text-option{
@@ -203,7 +205,7 @@ input:focus{
 
 .last-text{
     position: absolute;
-    top: 475px;
+    top: 615px;
     display: flex;
     justify-content: center;
     align-items: center;
