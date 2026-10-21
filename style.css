@@ -38,10 +38,9 @@ body {
 .center{
     display: flex;
     justify-content: center;
-    width: 73%;
-    height: 93%;
+    width: 365px;
+    height: 565px;
     position: relative;
-    /* border: 1px solid white; */
 }
 
 .saylani-container{
@@ -90,7 +89,6 @@ body {
     border: 1px solid #4671C6A6;
     border-radius: 10px;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     gap: 12px;
 }
@@ -210,6 +208,7 @@ input:focus{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 3px;
 }
 
 .last-p{
